@@ -62,7 +62,7 @@ export default function SettingsPage({ vehicles, onRefresh }) {
         </div>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
           AutoLog v1.0 — Aplicație de tracking pentru mentenanța auto.
-          Ține evidența intervențiilor, costurilor și primiești remindere la timp.
+          Ține evidența intervențiilor, costurilor și primești remindere la timp.
         </p>
       </div>
 

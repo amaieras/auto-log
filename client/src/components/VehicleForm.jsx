@@ -99,7 +99,7 @@ export default function VehicleForm({ vehicle, onSave, onCancel }) {
             type="text"
             className="form-input"
             value={form.license_plate}
-            onChange={e => setForm(f => ({ ...f, license_plate: e.target.value }))}
+            onChange={e => setForm(f => ({ ...f, license_plate: e.target.value.toUpperCase() }))}
             placeholder="ex: B 123 ABC"
           />
         </div>
